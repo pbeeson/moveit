@@ -21,7 +21,7 @@ find_package(catkin REQUIRED COMPONENTS
   dynamic_reconfigure
   )
 
-find_package(ompl REQUIRED)
+find_package(ompl 1.5.0 EXACT REQUIRED)
 
 generate_dynamic_reconfigure_options("ompl_interface/cfg/OMPLDynamicReconfigure.cfg")
 
